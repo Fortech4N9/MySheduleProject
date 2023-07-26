@@ -18,7 +18,7 @@
 <script>
     document.getElementById('selected_date').addEventListener('change', function() {
         const myLink = document.getElementById('getShedule');
-        myLink.href = document.URL+"/" + this.value+"/lessons";
+        myLink.href = document.URL + this.value+"/lessons";
     });
 </script>
 </body>
